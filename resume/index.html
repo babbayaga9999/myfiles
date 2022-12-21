@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+   
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caramel&display=swap" rel="stylesheet">
+
 
     
     <title>Resume</title>
@@ -15,10 +17,14 @@
        
 
        *{
-        background-color:lightblue;
+        background-image: url("https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        
         font-family: 'Times New Roman', Times, serif;
         
         
+       }
+       body{
+        color: white;
        }
        .list{
         font-size:medium;
@@ -34,6 +40,7 @@
         margin-bottom: 10px;
        }
        .about{
+        color: white;
         font-weight: 600;
         font-size: large;
         font-family:Georgia, 'Times New Roman', Times, serif
@@ -42,22 +49,23 @@
         border-radius: 40px;
        }
        .name{
+        color: white;
         font-weight: 600;
         font-size: xx-large;
         font-family:'caramel',cursive ;
        }
        .contact{
-    
+        font-style:"ubuntu";
        }
     </style>
 </head>
 <body>
     <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-          <img class="image" alt="hero" src="https://pps.whatsapp.net/v/t61.24694-24/183965175_1927738280766736_8868554025662071037_n.jpg?ccb=11-4&oh=01_AdTNLIS9YOPqhgoPfyLkLgu8hIYL74zsrcmO3gnDJNULnQ&oe=63AE711A" width="200" length="200">
+          <img class="image" alt="hero" src="https://pps.whatsapp.net/v/t61.24694-24/183965175_1927738280766736_8868554025662071037_n.jpg?ccb=11-4&oh=01_AdTNLIS9YOPqhgoPfyLkLgu8hIYL74zsrcmO3gnDJNULnQ&oe=63AE711A" width="100" length="100">
           <div class="text-center lg:w-2/3 w-full">
             <h1 class="name">Ankit Upadhyay</h1>
-            <p class="mb-8 leading-relaxed">Hello Sir/Mam I am Ankit Upadhyay ,I am a 2022 bca graduate from Dit University.My hobbies include reading,listening to podcasts and jogging.</p>
+            <p class="about">Hello Sir/Mam I am Ankit Upadhyay ,I am a 2022 bca graduate from Dit University.My hobbies include reading,listening to podcasts and jogging.</p>
             <div class="flex justify-center">
             </div>
           </div>
@@ -91,6 +99,14 @@
           <li>Uml in collaboration with oracle university</li>
           <li>Ethical hacking for beginners by udemy</li>
           <li>Network hacking continued by udemy</li>
+        </ul>
+      </div>
+
+       <div class="projects">
+        <ul>
+          <h3><b>projects</b></h3>
+          <li>speech recognition using ai/ml(college project)</li>
+          <li>ecommerce site </li>
         </ul>
       </div>
 </body>
