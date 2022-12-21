@@ -2,21 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caramel&display=swap" rel="stylesheet">
+
     
     <title>Resume</title>
     <style>
+       
 
        *{
-        background-color:;
+        background-color:lightblue;
+        font-family: 'Times New Roman', Times, serif;
+        
+        
        }
        .list{
         font-size:medium;
         font-weight: 700;
+        
        }
        .container{
         
@@ -24,51 +31,67 @@
 
        }
        .skills{
-        background-color:;
+        margin-bottom: 10px;
        }
        .about{
-        background-color:;
+        font-weight: 600;
+        font-size: large;
+        font-family:Georgia, 'Times New Roman', Times, serif
        }
-       .im{
+       .image{
+        border-radius: 40px;
+       }
+       .name{
+        font-weight: 600;
+        font-size: xx-large;
+        font-family:'caramel',cursive ;
+       }
+       .contact{
     
-        
        }
-       
     </style>
 </head>
 <body>
-   <div class="im">
-    <img src="https://lh3.googleusercontent.com/YZaLmU-JDu2fBihZwFGc28kSO4jYpybuSM2nTAiOdbODbSKS8V6N-kgoBP0w1Z1LInsLwJfdz8kei1Zv5CbxRkZPFu4dGN44DoRxHi-qX8OZaz1NMQ4mFv1M_vrT4imTaNGhmn6Mrv_-vrRm7m3BL0x4rKvo6lPTtWQ8NmyJ4j3neoLxE80cC-TigE5nzLprrZ6bPDPTCAapMVJQhGnaQj6h2EsQa-8_ApwSKEWwBw9dGX7WBGfKRZmYuOROqxHinb1tk0oWt45otihGsYQzlMGBShvhTaBbtz7h36s0CVmvo6rHcTXXhgm4ks-4Jy8ML_-ZqTVVJiby7yQlEysJO8UfR0jaoYeU_7GyNQFNNxhbCyY5igxxN-CHRydSP9G0gnoZyaVMXiAKNSZrOdGnh91GNgQI3SITB1HUPcZYu7NrP4kuL77Uoo1YH9ZAKO21gr2NO9cl95cDjgumkkJ-R_4rG3tbim1yDlYb3dvNfq9zt4KV1i1pmEB6LQqPQDV1R-YtPRgptMeMYJVu498vP-QK1iIw7kYe20R_kKawpIiFE_04zLWSstlIdrK8H-_Rj8vNAQmDx-vdDERKGGZScEB1Vye_De3TDDnBX4FXdpF7rR7WZ7Fsjh9_rPwFVwZLEEsBf1pz1jSoJx6ZASCcaQO0wMQWSOC7gbC7UMcUuhXRoX6hAa-QM1cc-Ff3d2jjSJ35LpUioTZcpnVrjAArzG5IMsNOAYx_YXrCL7xB9s7Tg66vkPmMpS1kWDfWllZwtYjRCFYGO2YOjmIfhx7WySE9lxYF2ionL9kAuo9Wgvh8X97zP5-vBTU0vmfsWnprekdWUn80R5aJ2VzazYJ3Nd4hb2K8q634aLYxDxEG0lpUnA7W_oc52TG9w5kTrGEzO491LVaNbqaagCpNg4bas5q1-2-wp3WSO1sqK_kbxkyV0A=w698-h941-no?authuser=0" alt="me"width="100" length="50">
-   </div>
-    <div class="container">
-        
-        <h1>Ankit Upadhyay</h1>
-        <h2>Front End developer</h2>
-      
-     
-    </div>
-    <div class="skills">
-        <h3>Skills</h3>
-        
-            <li>Html</li>
-            <li>Css</li>
-            <li>Javascript</li>
-            <li>Tailswind Css</ul>
-            <li>Bootstrap</li>
-        
-    </div>
-    <div class="about">
-        <p>
-             I completed my graduation from Dit University Dehradoon in Bca,currently an intern at aashman foundation.
-             my hobbies include reading ,listening to podcasts and jogging. 
-        </p>
-    </div>
-    <div>
-        <h4><em>contact</em></h4>
-        <li>email:ankitpdh8@gmail.com</li>   
-        <li>phone: 9557355756</li>
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+          <img class="image" alt="hero" src="https://pps.whatsapp.net/v/t61.24694-24/183965175_1927738280766736_8868554025662071037_n.jpg?ccb=11-4&oh=01_AdTNLIS9YOPqhgoPfyLkLgu8hIYL74zsrcmO3gnDJNULnQ&oe=63AE711A" width="200" length="200">
+          <div class="text-center lg:w-2/3 w-full">
+            <h1 class="name">Ankit Upadhyay</h1>
+            <p class="mb-8 leading-relaxed">Hello Sir/Mam I am Ankit Upadhyay ,I am a 2022 bca graduate from Dit University.My hobbies include reading,listening to podcasts and jogging.</p>
+            <div class="flex justify-center">
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="contact" style="position:fixed; left:1400px;">
+        <h4><b>Contact</b></h4>
+        <li>Email:ankitpdh8@gmail.com</li>   
+        <li>Phone: 9557355756</li>
         <li><a href="github: https://github.com/babbayaga9999">Github</a></li>
         <li><a href="linkedin:https://www.linkedin.com/in/ankit-upadhyay-77905a218/">Linkedin</a></li>
-   </div>
+      </div>
+
+      <div class="skills">
+      <ul>
+        <h3><b>Skills</b></h3>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Javascript</li>
+        <li>Bootstrap</li>
+        <li>Tailswind Css</li>
+      </ul>
+    </div>
+
+    <hr>
+    <div class="cert">
+        <ul>
+          <h3><b>certifications</b></h3>
+          <li>Sql in collaboration with oracle university</li>
+          <li>Pl/Sql in collaboration with oracle university</li>
+          <li>Uml in collaboration with oracle university</li>
+          <li>Ethical hacking for beginners by udemy</li>
+          <li>Network hacking continued by udemy</li>
+        </ul>
+      </div>
 </body>
 </html>
